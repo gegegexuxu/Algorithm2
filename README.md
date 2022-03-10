@@ -11,8 +11,8 @@
   * lsum : 为其左子区间的lsum 或者 左子区间的asum加上右子区间的lsum<br>
   * rsum : 为其右子区间的rsum 或者 右子区间的asum加上左子区间的rsum<br>
   * asum : 为其左子区间的asum加上右子区间的asum<br>
-  * msum : 
+  * msum : <br>
         * 过分割点： 左子区间的rsum加上右子区间的lsum<br>
-        * 不过分割点： 左子区间的msum 或 右子区间的msum
+        * 不过分割点： 左子区间的msum 或 右子区间的msum<br>
         * 所以msum为两种情况共三个值的最大值
  如此，分治方法的“分”与“治”都得到了很好的解决。
